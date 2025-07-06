@@ -1,0 +1,1 @@
+{'train_accuracy': 0.9012069700943143, 'train_precision': 0.901808012554676, 'train_recall': 0.9012069700943143, 'train_f1': 0.9014799638082611, 'test_accuracy': 0.8936808846761454, 'test_precision': 0.8935856508396345, 'test_recall': 0.8936808846761454, 'test_f1': 0.8936163757571747, 'critical_threshold': np.float64(3.215), 'degraded_threshold': np.float64(3.263)}

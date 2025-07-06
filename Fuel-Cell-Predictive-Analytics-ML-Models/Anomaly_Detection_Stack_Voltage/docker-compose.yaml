@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  fuel_cell_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fuel-cell-anomaly-detection
+    container_name: fuel_cell_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./outputs:/app/outputs
+    environment:
+      - LOKY_MAX_CPU_COUNT=4

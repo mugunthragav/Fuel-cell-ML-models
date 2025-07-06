@@ -1,0 +1,9 @@
+Anomaly Detection Summary (DBSCAN Model)
+Total Data Points: 8578
+Total Anomalies Detected: 6292
+Anomaly Percentage: 73.35%
+Most Affected Cell: Cell96
+Min Cell Voltage Range: [np.float64(-0.014), np.float64(1.006)]
+Average Load (Anomalies): 120.90
+Average H2 Flow (Anomalies): 118.04
+Average Stack Inlet Temp (Anomalies): 61.32

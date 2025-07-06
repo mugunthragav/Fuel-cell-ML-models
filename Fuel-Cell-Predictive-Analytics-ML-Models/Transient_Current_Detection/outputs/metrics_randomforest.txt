@@ -1,0 +1,20 @@
+--- Model Performance Metrics ---
+
+Model: RandomForestClassifier
+  Accuracy: 0.9999
+  Balanced Accuracy: 0.9932
+  F1-Score (Normal): 0.9932
+  ROC AUC: 1.0000
+  Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       221
+           1       1.00      1.00      1.00     36664
+
+    accuracy                           1.00     36885
+   macro avg       1.00      0.99      1.00     36885
+weighted avg       1.00      1.00      1.00     36885
+
+  Confusion Matrix:
+[[  218     3]
+ [    0 36664]]

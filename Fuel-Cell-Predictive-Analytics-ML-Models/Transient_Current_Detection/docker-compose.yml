@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  fault_prediction_api:
+    build:
+      context: . # Build context is the current directory (where Dockerfile is)
+      dockerfile: Dockerfile
+    container_name: fault_prediction_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000" # Map host port 8000 to container port 8000
+    volumes:
+      # Mount the models directory to ensure the container can access the .pkl files
+      # This is crucial if you train models outside the container and want to use them
+      - ./models:/app/models
+      # Mount the app directory for development, so changes are reflected without rebuilding
+      - ./app:/app
+

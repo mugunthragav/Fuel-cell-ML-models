@@ -1,0 +1,21 @@
+--- Model Performance Metrics ---
+
+Model: LogisticRegression
+  Accuracy: 0.0062
+  Balanced Accuracy: 0.5001
+  F1-Score (Normal): 0.0119
+  ROC AUC: 0.8548
+  Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.01      1.00      0.01       221
+           1       1.00      0.00      0.00     36664
+
+    accuracy                           0.01     36885
+   macro avg       0.50      0.50      0.01     36885
+weighted avg       0.99      0.01      0.00     36885
+
+  Confusion Matrix:
+[[  221     0]
+ [36656     8]]
+  Cross-validation balanced accuracy: 0.8519 (+/- 0.0032)

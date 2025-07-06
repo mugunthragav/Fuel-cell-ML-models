@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  combined_fuel_cell_api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./outputs:/app/outputs
+      - ../../FC-final/Anomaly_Detection_Stack_Voltage/models:/app/models/model1
+      - ../../FC-final/Health_State_Classification/models:/app/models/model2
+      - ../../FC-final/Time_Series_Anomaly_Detection/models:/app/models/model3
+      - ../../FC-final/Transient_Current_Detection/models:/app/models/model4
+      - ../../FC-final/Voltage_Prediction_Digital_Twin/models:/app/models/model5
+      - ../../FC-final/Anomaly_Detection_Stack_Voltage/outputs:/app/outputs/model1
+      - ../../FC-final/Health_State_Classification/outputs:/app/outputs/model2
+      - ../../FC-final/Time_Series_Anomaly_Detection/outputs:/app/outputs/model3
+      - ../../FC-final/Transient_Current_Detection/outputs:/app/outputs/model4
+      - ../../FC-final/Voltage_Prediction_Digital_Twin/outputs:/app/outputs/model5
+    environment:
+      - PYTHONUNBUFFERED=1

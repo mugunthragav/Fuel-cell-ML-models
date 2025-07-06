@@ -1,0 +1,17 @@
+{
+    "best_params": {
+        "colsample_bytree": 1.0,
+        "gamma": 0,
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "n_estimators": 100,
+        "subsample": 1.0
+    },
+    "cv_rmse": 0.002784318194135067,
+    "train_rmse": 0.002567501335539212,
+    "train_mae": 0.0019827930865356446,
+    "train_r2": 0.9963835273286236,
+    "test_rmse": 0.002757704672934386,
+    "test_mae": 0.0020935822845735827,
+    "test_r2": 0.9958067423290354
+}

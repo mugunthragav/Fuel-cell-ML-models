@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+tensorflow
+keras-tcn
+PyWavelets
+joblib
+matplotlib
+seaborn
+shap
+openpyxl
+python-multipart
+fastdtw

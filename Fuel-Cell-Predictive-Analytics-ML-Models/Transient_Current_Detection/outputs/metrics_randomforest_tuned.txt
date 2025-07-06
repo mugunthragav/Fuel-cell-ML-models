@@ -1,0 +1,9 @@
+--- Model Performance Metrics (RandomForestClassifier - Tuned) ---
+
+Best Parameters (from GridSearchCV): {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 20}
+Best Cross-Validation Balanced Accuracy: 0.9956
+
+Test Set Evaluation:
+  Accuracy: 0.9991
+  Balanced Accuracy: 0.9954
+  F1-Score (Normal): 0.9991
